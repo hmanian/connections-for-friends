@@ -14,7 +14,7 @@ module.exports = {
             const db = await client.connect();
             // Verify we got a good "db" object
             if (db) {
-                _db = db.db("cluster0");
+                _db = db.db("connections-for-friends");
                 console.log("Successfully connected to MongoDB.");
             }
             return _db;
