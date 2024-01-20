@@ -37,3 +37,10 @@ header a {
   text-align: center;
   margin-top: -20px; 
 }
+
+
+.PlayerDirections {
+  text-align: center;
+  margin-top: -20px; 
+  margin-right: 100px;
+}

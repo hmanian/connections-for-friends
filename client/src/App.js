@@ -3,6 +3,7 @@ import {BrowserRouter, Routes, Route } from 'react-router-dom'
 import Create from "./components/create";
 import Navbar from './components/navbar'
 import CreateGame from './pages/createGame'
+import PlayGame from './pages/playGame'
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
           <Routes>
             <Route 
               path="/" 
-              element={<CreateGame />} 
+              element={<PlayGame />} 
             />
           </Routes>
         </div>
