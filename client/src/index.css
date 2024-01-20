@@ -2,38 +2,102 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
 
 /* layout */
-:root {
-  --primary: #1aac83;
-  --error: #e7195a;
-}
 body {
-  background: #f1f1f1;
-  margin: 0;
-  font-family: "Poppins";
+    background: #f1f1f1;
+    margin: 0;
+    font-family: "Poppins";
 }
+
 header {
-  background: #fff;
+    background: #fff;
 }
+
 header .container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 20px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
 header a {
-  color: #333;
-  text-decoration: none;
+    color: #333;
+    text-decoration: none;
 }
-.pages{
-  max-width: 1400px;
-  padding: 10px;
-  margin: 0 auto;
-  margin-left: 100px;
+
+.pages {
+    max-width: 1400px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-left: 100px;
 }
 
 .main-title {
-  text-align: center;
-  margin-top: -20px; 
+    text-align: center;
+    margin-top: -20px;
+}
+
+.directions-title {
+    margin-left: 540px;
+    margin-top: 0px;
+}
+
+.directions {
+    font-family: Poppins;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.input-group {
+    margin-right: 165px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+label {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.yellow-box {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    background-color: #f5df7e;
+}
+
+.green-box {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    background-color: #a7c268;
+}
+
+.blue-box {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    background-color: #b4c3eb;
+}
+
+.purple-box {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    background-color: #b283c1;
 }
