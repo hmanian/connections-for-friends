@@ -100,4 +100,9 @@ label {
     border-radius: 10px;
     outline: none;
     background-color: #b283c1;
+
+.PlayerDirections {
+  text-align: center;
+  margin-top: -20px; 
+  margin-right: 100px;
 }
